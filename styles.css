@@ -5,3 +5,37 @@
   margin: 0;
   padding: 0;
 }
+
+html {
+  font-family: Helvetica, sans-serif;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  padding: 7px 10px;
+}
+
+.logo img {
+  height: 50px;
+  width: auto;
+}
+
+nav ul {
+  display: flex;
+  flex-basis: 400px;
+  justify-content: space-between;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav a {
+  text-decoration: underline;
+  color: white;
+  font-size: 22px;
+}
