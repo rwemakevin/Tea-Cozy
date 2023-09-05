@@ -12,7 +12,6 @@ body {
 }
 
 nav {
-  background-color: rgba(0, 0, 0, 0.9);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -53,7 +52,7 @@ nav a {
 }
 
 .mission-text {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.92);
   color: white;
   padding: 10px 0;
   text-align: center;
@@ -67,7 +66,7 @@ nav a {
 #product {
   width: 1000px;
   margin: 0 auto;
-  padding: 40px 0;
+  padding: 40px 0 50px 0;
   text-align: center;
   color: white;
 }
@@ -99,4 +98,43 @@ nav a {
   justify-content: center;
   flex-wrap: wrap;
   gap: 25px;
+}
+
+#location {
+  width: 1200px;
+  height: 500px;
+  background-image: url("./img/img-locations-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  padding: 50px 0;
+  color: white;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.location-flex {
+  width: 980px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  flex-basis: 300px;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 20px 0;
+}
+
+.card h3,
+.card p {
+  margin-bottom: 30px;
+}
+
+.card p {
+  font-size: 22px;
 }
