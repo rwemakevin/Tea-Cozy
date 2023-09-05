@@ -6,8 +6,9 @@
   padding: 0;
 }
 
-html {
+body {
   font-family: Helvetica, sans-serif;
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 nav {
@@ -38,4 +39,27 @@ nav a {
   text-decoration: underline;
   color: white;
   font-size: 22px;
+}
+
+#mission {
+  width: 1200px;
+  height: 700px;
+  margin: 0 auto;
+  background-image: url("./img/img-mission-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.mission-text {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  flex-basis: 1200px;
+}
+
+.mission-text h2 {
+  margin-bottom: 20px;
 }
