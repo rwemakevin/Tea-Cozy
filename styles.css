@@ -63,3 +63,40 @@ nav a {
 .mission-text h2 {
   margin-bottom: 20px;
 }
+
+#product {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 40px 0;
+  text-align: center;
+  color: white;
+}
+
+.img-holder {
+  margin-top: 10px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mb-10 {
+  margin-bottom: 20px;
+}
+
+.img-holder img {
+  width: 300px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.img-holder h4 {
+  margin-top: 10px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
